@@ -1,1 +1,243 @@
-"Some stuff say on the internet" 
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Leeds Beckett Tennis Team</title>
+
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="js/cycle2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+</head>
+<body>
+
+  <div id="container">
+    <div id="slideshow" class="cycle-slideshow"
+    data-cycle-fx = "fade"
+    data-cycle-speed = "600"
+    data-cycle-timeout = "3000"
+    data-cycle-pager = "#pager"
+    data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
+    data-cycle-next = "#next"
+    data-cycle-prev = "#prev"
+    data-cycle-manual-fx = "scrollHorz"
+    data-cycle-manual-speed = "400"
+    data-cycle-pager-fx = "fade">
+    <img src="img/sliderimg1.jpg" alt="">
+    <img src="img/sliderimg2.jpg" alt="">
+    <img src="img/sliderimg3.jpg" alt="">
+    <img src="img/sliderimg4.jpg" alt="">
+  </div>
+
+  <div id="pager"></div>
+  <img id="prev" src="img/prev1.svg"/>
+  <img id="next" src="img/next1.svg"/>
+</div>
+
+<div id="nav">
+  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+  <div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li><a class="button" href="index.html">Homepage</a></li>
+        <li><a class="button" href="#teams">Teams</a></li>
+        <li><a class="button" href="#results">Results</a></li>
+        <li><a class="button" href="#fixtures">Fixtures</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="content_1" class="content margin">
+<h1 id="teams" class="center">Our teams</h1>
+  <div class="tab-panels">
+    <ul class="tabs center">
+      <li class="button" rel="panel1" class="active">Mens №1</li>
+      <li class="button" rel="panel2">Mens №2</li>
+      <li class="button" rel="panel3">Mens №3</li>
+      <li class="button" rel="panel4">Mens №4</li>
+      <li class="button" rel="panel5">Mens №5</li>
+      <li class="button" rel="panel6">Mens №6</li>
+    </ul>
+
+    <div id="panel1" class="panel active">
+      <div class="panelImage"><img src="img/team1.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel2" class="panel">
+      <div class="panelImage"><img src="img/team2.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel3" class="panel">
+      <div class="panelImage"><img src="img/team3.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel4" class="panel">
+      <div class="panelImage"><img src="img/team4.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel5" class="panel">
+      <div class="panelImage"><img src="img/team5.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel6" class="panel">
+      <div class="panelImage"><img src="img/team6.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+  </div>
+
+  <div class="tab-panels margin">
+    <ul class="tabs center">
+      <li class="button" rel="panel7" class="active">Womens №1</li>
+      <li class="button" rel="panel8">Womens №2</li>
+      <li class="button" rel="panel9">Womens №3</li>
+    </ul>
+     <div id="panel7" class="panel active">
+      <div class="panelImage"><img src="img/wteam1.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel8" class="panel">
+      <div class="panelImage"><img src="img/wteam2.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+    <div id="panel9" class="panel">
+      <div class="panelImage"><img src="img/wteam3.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+      Last match played : dd/mm/yy <br/>
+      Location : Home/Away <br />
+      Status : Won/Lost <br />
+      BUCS League/Rating <br />
+      Captain : Name Surname
+
+      <div class="readMore"><a class="success button" href="#">Members</a></div>
+    </div>
+</div>
+
+  <div id="content_2" class="content">
+
+    <h1 id="results">Results</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+  </div>
+
+  <hr />
+
+  <div id="content_3" class="content">
+
+    <h1 id="fixtures">Fixtures</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <hr />
+
+    <div id="content_4">
+      <h1 class="center">creator of the project</h1>
+      <div id="ribakovs">
+        <img src="img/me.jpg" title="Nikita Ribakovs" alt="Nikita Ribakovs" class="ribakovsImage" />
+      </div>
+      <br /> <br />
+      <hr />
+    </div>
+
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/panel.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
+  </html>
