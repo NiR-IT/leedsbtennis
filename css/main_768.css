@@ -105,3 +105,11 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.top-bar-left ul li a .button{
+  display: none;
+}
+
+#container {
+  display: none;
+}
