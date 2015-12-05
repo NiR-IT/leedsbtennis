@@ -1,0 +1,107 @@
+
+
+#pager {
+	display: none;
+}
+
+#content_1 {
+	width:100%;
+}
+
+.top-bar-right {
+	display: none;
+}
+
+.margin {
+	margin-top:0;
+}
+
+.panelInfo {
+	display:none;
+}
+
+.panelImage {
+	cursor: pointer;
+}
+
+#content_2 {
+  display: none;
+}
+
+
+.panelImage {
+  margin:0;
+}
+
+}
+.tab-panels {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+#mainContent {
+  width:100%;
+}
+
+.tabs li {
+  width:100%;
+}
+
+#content_5 {
+  display: none;
+}
+
+.top-bar-left ul li {
+  width:100%;
+}
+
+.right {
+  float: right;
+  margin-right:3%;
+  border: 1px solid white;
+  padding:0.5% 1% 0.5% 1%;
+}
+
+.captainPete {
+  padding:30px;
+}
+
+.marginbottom {
+  display: none;
+}
+
+.borderito {
+  border: none;
+  width:100%;
+  font-size:12px;
+}
+
+.top-bar-left ul li:nth-child(even) {
+  display: none;
+}
+
+#mainLogin {
+  margin:25%;
+}
+
+div#back_glob{
+  background-color:white;
+  border:1px solid #663399;
+  width:100%;
+  margin: 0 auto;
+  box-shadow: 1px 0px 15px #663399;
+}
+
+input[type=text], input[type=password] {
+  margin-top:10%;
+  padding:10px;
+  font-size:15px;
+  border-radius:3px;
+  border: 1px solid #ddd;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
