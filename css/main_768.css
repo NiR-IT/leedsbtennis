@@ -104,9 +104,6 @@ input[type=text], input[type=password] {
 a {
   text-decoration: none;
   color: white;
-<<<<<<< HEAD
-}
-=======
 }
 
 .top-bar-left ul li a .button{
@@ -116,4 +113,3 @@ a {
 #container {
   display: none;
 }
->>>>>>> refs/remotes/origin/master
