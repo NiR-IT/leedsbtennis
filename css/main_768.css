@@ -104,4 +104,16 @@ input[type=text], input[type=password] {
 a {
   text-decoration: none;
   color: white;
+<<<<<<< HEAD
 }
+=======
+}
+
+.top-bar-left ul li a .button{
+  display: none;
+}
+
+#container {
+  display: none;
+}
+>>>>>>> refs/remotes/origin/master
