@@ -1,0 +1,1023 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Leeds Beckett Tennis Team</title>
+
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" media="only screen and (max-width:800px)" href="css/main_800.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="js/cycle2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+</head>
+<body>
+
+  <div id="nav">
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Menu</div>
+      <div class="title-bar-title right"><a href="signup.html">Sign Up</a></div>
+      <div class="title-bar-title right"><a href="login.html">Log in</a></div>
+    </div>
+
+    <div class="top-bar" id="example-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a class="button" href="#teams">Teams</a></li>
+          <li><a class="button" href="#results">Results</a></li>
+          <li><a class="button" href="#fixtures">Fixtures</a></li>
+          <li><a class="button" href="#trainings">Trainings</a></li>
+          <li><a class="button" href="mens1.html">Members (example)</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a class="success button" href="login.html">Log In</a></li>
+          <li><a class="success button" href="signup.html">Sign Up</a></li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="container">
+    <div id="slideshow" class="cycle-slideshow"
+    data-cycle-fx = "fade"
+    data-cycle-speed = "600"
+    data-cycle-timeout = "3000"
+    data-cycle-pager = "#pager"
+    data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
+    data-cycle-next = "#next"
+    data-cycle-prev = "#prev"
+    data-cycle-manual-fx = "scrollHorz"
+    data-cycle-manual-speed = "400"
+    data-cycle-pager-fx = "fade">
+    <img src="img/sliderimg1.jpg" alt="Image1">
+    <img src="img/sliderimg2.jpg" alt="Image2">
+    <img src="img/sliderimg3.jpg" alt="Image3">
+    <img src="img/sliderimg4.jpg" alt="Image4">
+  </div>
+
+  <div id="pager"></div>
+  <img id="prev" src="img/prev1.svg" alt="prev" />
+  <img id="next" src="img/next1.svg" alt="next" />
+</div>
+
+  <div id="content_1" class="margin">
+    <hr />
+    <h1 id="teams" class="center">Our teams</h1>
+    <hr />
+    <div class="tab-panels">
+      <ul class="tabs center">
+        <li class="button" rel="panel1" class="active">Mens №1</li>
+        <li class="button" rel="panel2">Mens №2</li>
+        <li class="button" rel="panel3">Mens №3</li>
+        <li class="button" rel="panel4">Mens №4</li>
+        <li class="button" rel="panel5">Mens №5</li>
+        <li class="button" rel="panel6">Mens №6</li>
+      </ul>
+
+      <div id="panel1" class="panel active">
+      <div class="panelImage"><img src="img/team1.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+        <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Nick Eeckelaers</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel2" class="panel">
+        <div class="panelImage"><img src="img/team2.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel3" class="panel">
+        <div class="panelImage"><img src="img/team3.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel4" class="panel">
+        <div class="panelImage"><img src="img/team4.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+        <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel5" class="panel">
+        <div class="panelImage"><img src="img/team5.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel6" class="panel">
+        <div class="panelImage"><img src="img/team6.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+    </div>
+
+    <div class="tab-panels margin">
+      <ul class="tabs center">
+        <li class="button" rel="panel7" class="active">Womens №1</li>
+        <li class="button" rel="panel8">Womens №2</li>
+        <li class="button" rel="panel9">Womens №3</li>
+      </ul>
+      <div id="panel7" class="panel active">
+        <div class="panelImage"><img src="img/wteam1.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 6</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Jen Gadsby</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel8" class="panel">
+        <div class="panelImage"><img src="img/wteam2.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+      <div id="panel9" class="panel">
+        <div class="panelImage"><img src="img/wteam3.jpg" title="Team photo" alt="Team photo" class="imgSize left"></div>
+         <div class="panelInfo"><span class="italic">Last match played</span> : <span class="strong">dd/mm/yy</span> <br/>
+          <span class="italic">Location</span> : <span class="strong">Home/Away</span> <br />
+          <span class="italic">Status</span> : <span class="strong">Won/Lost</span> <br />
+          <span class="italic">Score</span> : <span class="strong">e.g. 12-0</span> <br />
+          <span class="italic">BUCS League/Rating</span> : <span class="strong">National Premier / 4</span><br />
+          <span class="italic">Captain</span> : <span class="strong">Name Surname</span>
+        </div>
+
+        <div class="readMore"><a class="success button" href="mens1.html">Members</a></div>
+      </div>
+    </div>
+    <div id="content_2" class="margin">
+      <hr />
+      <h1 id="results" class="center">Results</h1>
+      <hr />
+      <div class="tab-panels">
+        <ul class="tabs center">
+          <li class="button" rel="table1" class="active">Mens №1</li>
+          <li class="button" rel="table2">Mens №2</li>
+          <li class="button" rel="table3">Mens №3</li>
+          <li class="button" rel="table4">Mens №4</li>
+          <li class="button" rel="table5">Mens №5</li>
+          <li class="button" rel="table6">Mens №6</li>
+        </ul>
+
+        <div id="table1" class="panel active">
+          <table class="teamResults">
+            <caption>Mens team №1 results</caption>
+            <thead>
+              <tr>
+                <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="col">Updated 30/11/2015</th>
+                <th scope="col">P</th>
+                <th scope="col">W</th>
+                <th scope="col">D</th>
+                <th scope="col">L</th>
+                <th scope="col">GD</th>
+                <th scope="col">Pts</th>
+              </tr>
+              <tr>
+                <th scope="row">Durham 1st</th>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>72</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th scope="row">Bath 1st</th>
+                <td>7</td>
+                <td>5</td>
+                <td>0</td>
+                <td>2</td>
+                <td>16</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">Stirling 1st</th>
+                <td>6</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>20</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th scope="row">Exeter 1st</th>
+                <td>6</td>
+                <td>0</td>
+                <td>1</td>
+                <td>5</td>
+                <td>-48</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">Bournemouth 1st</th>
+                <td>7</td>
+                <td>0</td>
+                <td>1</td>
+                <td>6</td>
+                <td>-60</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="table2" class="panel">
+          <table class="teamResults">
+            <caption>Mens team №2 results</caption>
+            <thead>
+              <tr>
+                <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="col">Updated 30/11/2015</th>
+                <th scope="col">P</th>
+                <th scope="col">W</th>
+                <th scope="col">D</th>
+                <th scope="col">L</th>
+                <th scope="col">GD</th>
+                <th scope="col">Pts</th>
+              </tr>
+              <tr>
+                <th scope="row">Durham 1st</th>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>72</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th scope="row">Bath 1st</th>
+                <td>7</td>
+                <td>5</td>
+                <td>0</td>
+                <td>2</td>
+                <td>16</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">Stirling 1st</th>
+                <td>6</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>20</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th scope="row">Exeter 1st</th>
+                <td>6</td>
+                <td>0</td>
+                <td>1</td>
+                <td>5</td>
+                <td>-48</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">Bournemouth 1st</th>
+                <td>7</td>
+                <td>0</td>
+                <td>1</td>
+                <td>6</td>
+                <td>-60</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="table3" class="panel">
+         <table class="teamResults">
+          <caption>Mens team №3 results</caption>
+          <thead>
+            <tr>
+              <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">Updated 30/11/2015</th>
+              <th scope="col">P</th>
+              <th scope="col">W</th>
+              <th scope="col">D</th>
+              <th scope="col">L</th>
+              <th scope="col">GD</th>
+              <th scope="col">Pts</th>
+            </tr>
+            <tr>
+              <th scope="row">Durham 1st</th>
+              <td>6</td>
+              <td>6</td>
+              <td>0</td>
+              <td>0</td>
+              <td>72</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th scope="row">Bath 1st</th>
+              <td>7</td>
+              <td>5</td>
+              <td>0</td>
+              <td>2</td>
+              <td>16</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <th scope="row">Stirling 1st</th>
+              <td>6</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>20</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+              <td>6</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>0</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">Exeter 1st</th>
+              <td>6</td>
+              <td>0</td>
+              <td>1</td>
+              <td>5</td>
+              <td>-48</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">Bournemouth 1st</th>
+              <td>7</td>
+              <td>0</td>
+              <td>1</td>
+              <td>6</td>
+              <td>-60</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="table4" class="panel">
+        <table class="teamResults">
+          <caption>Mens team №4 results</caption>
+          <thead>
+            <tr>
+              <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">Updated 30/11/2015</th>
+              <th scope="col">P</th>
+              <th scope="col">W</th>
+              <th scope="col">D</th>
+              <th scope="col">L</th>
+              <th scope="col">GD</th>
+              <th scope="col">Pts</th>
+            </tr>
+            <tr>
+              <th scope="row">Durham 1st</th>
+              <td>6</td>
+              <td>6</td>
+              <td>0</td>
+              <td>0</td>
+              <td>72</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th scope="row">Bath 1st</th>
+              <td>7</td>
+              <td>5</td>
+              <td>0</td>
+              <td>2</td>
+              <td>16</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <th scope="row">Stirling 1st</th>
+              <td>6</td>
+              <td>3</td>
+              <td>1</td>
+              <td>2</td>
+              <td>20</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+              <td>6</td>
+              <td>2</td>
+              <td>3</td>
+              <td>1</td>
+              <td>0</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">Exeter 1st</th>
+              <td>6</td>
+              <td>0</td>
+              <td>1</td>
+              <td>5</td>
+              <td>-48</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">Bournemouth 1st</th>
+              <td>7</td>
+              <td>0</td>
+              <td>1</td>
+              <td>6</td>
+              <td>-60</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="table5" class="panel">
+       <table class="teamResults">
+        <caption>Mens team №5 results</caption>
+        <thead>
+          <tr>
+            <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="col">Updated 30/11/2015</th>
+            <th scope="col">P</th>
+            <th scope="col">W</th>
+            <th scope="col">D</th>
+            <th scope="col">L</th>
+            <th scope="col">GD</th>
+            <th scope="col">Pts</th>
+          </tr>
+          <tr>
+            <th scope="row">Durham 1st</th>
+            <td>6</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>72</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <th scope="row">Bath 1st</th>
+            <td>7</td>
+            <td>5</td>
+            <td>0</td>
+            <td>2</td>
+            <td>16</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <th scope="row">Stirling 1st</th>
+            <td>6</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>20</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+            <td>6</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>0</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <th scope="row">Exeter 1st</th>
+            <td>6</td>
+            <td>0</td>
+            <td>1</td>
+            <td>5</td>
+            <td>-48</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th scope="row">Bournemouth 1st</th>
+            <td>7</td>
+            <td>0</td>
+            <td>1</td>
+            <td>6</td>
+            <td>-60</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="table6" class="panel">
+     <table class="teamResults">
+      <caption>Womens team №6 results</caption>
+      <thead>
+        <tr>
+          <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Updated 30/11/2015</th>
+          <th scope="col">P</th>
+          <th scope="col">W</th>
+          <th scope="col">D</th>
+          <th scope="col">L</th>
+          <th scope="col">GD</th>
+          <th scope="col">Pts</th>
+        </tr>
+        <tr>
+          <th scope="row">Durham 1st</th>
+          <td>6</td>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>72</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th scope="row">Bath 1st</th>
+          <td>7</td>
+          <td>5</td>
+          <td>0</td>
+          <td>2</td>
+          <td>16</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th scope="row">Stirling 1st</th>
+          <td>6</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>20</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+          <td>6</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <th scope="row">Exeter 1st</th>
+          <td>6</td>
+          <td>0</td>
+          <td>1</td>
+          <td>5</td>
+          <td>-48</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">Bournemouth 1st</th>
+          <td>7</td>
+          <td>0</td>
+          <td>1</td>
+          <td>6</td>
+          <td>-60</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="tab-panels margin">
+  <ul class="tabs center">
+    <li class="button" rel="table7" class="active">Womens №1</li>
+    <li class="button" rel="table8">Womens №2</li>
+    <li class="button" rel="table9">Womens №3</li>
+  </ul>
+  <div id="table7" class="panel active">
+    <table class="teamResults">
+      <caption>Womens team №1 results</caption>
+      <thead>
+        <tr>
+          <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Updated 30/11/2015</th>
+          <th scope="col">P</th>
+          <th scope="col">W</th>
+          <th scope="col">D</th>
+          <th scope="col">L</th>
+          <th scope="col">GD</th>
+          <th scope="col">Pts</th>
+        </tr>
+        <tr>
+          <th scope="row">Loughborough 1st</th>
+          <td>7</td>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>64</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <th scope="row">Bath 1st</th>
+          <td>7</td>
+          <td>5</td>
+          <td>0</td>
+          <td>2</td>
+          <td>16</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th scope="row">Durham 1st</th>
+          <td>5</td>
+          <td>4</td>
+          <td>1</td>
+          <td>0</td>
+          <td>48</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <th scope="row">Exeter 1st</th>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td>4</td>
+          <td>-16</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">Cardiff Met 1st</th>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>5</td>
+          <td>-44</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>6</td>
+          <td>-68</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="table8" class="panel">
+    <table class="teamResults">
+      <caption>Womens team №2 results</caption>
+      <thead>
+        <tr>
+          <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Updated 30/11/2015</th>
+          <th scope="col">P</th>
+          <th scope="col">W</th>
+          <th scope="col">D</th>
+          <th scope="col">L</th>
+          <th scope="col">GD</th>
+          <th scope="col">Pts</th>
+        </tr>
+        <tr>
+          <th scope="row">Loughborough 1st</th>
+          <td>7</td>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>64</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <th scope="row">Bath 1st</th>
+          <td>7</td>
+          <td>5</td>
+          <td>0</td>
+          <td>2</td>
+          <td>16</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th scope="row">Durham 1st</th>
+          <td>5</td>
+          <td>4</td>
+          <td>1</td>
+          <td>0</td>
+          <td>48</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <th scope="row">Exeter 1st</th>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td>4</td>
+          <td>-16</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">Cardiff Met 1st</th>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>5</td>
+          <td>-44</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>6</td>
+          <td>-68</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="table9" class="panel">
+    <table class="teamResults">
+      <caption>Womens team №3 results</caption>
+      <thead>
+        <tr>
+          <td colspan="7">BUCS Tennis 2015-2016 - National Premier</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">Updated 30/11/2015</th>
+          <th scope="col">P</th>
+          <th scope="col">W</th>
+          <th scope="col">D</th>
+          <th scope="col">L</th>
+          <th scope="col">GD</th>
+          <th scope="col">Pts</th>
+        </tr>
+        <tr>
+          <th scope="row">Loughborough 1st</th>
+          <td>7</td>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>64</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <th scope="row">Bath 1st</th>
+          <td>7</td>
+          <td>5</td>
+          <td>0</td>
+          <td>2</td>
+          <td>16</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th scope="row">Durham 1st</th>
+          <td>5</td>
+          <td>4</td>
+          <td>1</td>
+          <td>0</td>
+          <td>48</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <th scope="row">Exeter 1st</th>
+          <td>5</td>
+          <td>1</td>
+          <td>0</td>
+          <td>4</td>
+          <td>-16</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">Cardiff Met 1st</th>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>5</td>
+          <td>-44</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th scope="row"><span class="leedsUni">Leeds Beckett Carnegie 1st</span></th>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>6</td>
+          <td>-68</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<div id="content_3" class="margin">
+  <hr />
+  <h1 id="fixtures" class="center">Fixtures</h1>
+  <hr />
+  <div class="tab-panels">
+    <ul class="tabs center">
+      <li class="button" rel="fixture1" class="active">Mens №1</li>
+      <li class="button" rel="fixture2">Mens №2</li>
+      <li class="button" rel="fixture3">Mens №3</li>
+      <li class="button" rel="fixture4">Mens №4</li>
+      <li class="button" rel="fixture5">Mens №5</li>
+      <li class="button" rel="fixture6">Mens №6</li>
+    </ul>
+
+    <div id="fixture1" class="panel active">
+      <span class="fixtureBorderHeading">Mens team 1:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+    </div>
+    <div id="fixture2" class="panel">
+      <span class="fixtureBorderHeading">Mens team 2:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+    </div>
+    <div id="fixture3" class="panel">
+     <span class="fixtureBorderHeading">Mens team 3:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+   </div>
+   <div id="fixture4" class="panel">
+    <span class="fixtureBorderHeading">Mens team 4:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+  <div id="fixture5" class="panel">
+    <span class="fixtureBorderHeading">Mens team 5:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+  <div id="fixture6" class="panel">
+    <span class="fixtureBorderHeading">Mens team 6:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+</div>
+
+<div class="tab-panels margin">
+  <ul class="tabs center">
+    <li class="button" rel="fixture7" class="active">Womens №1</li>
+    <li class="button" rel="fixture8">Womens №2</li>
+    <li class="button" rel="fixture9">Womens №3</li>
+  </ul>
+  <div id="fixture7" class="panel active">
+    <span class="fixtureBorderHeading">Womens team 1:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+  <div id="fixture8" class="panel">
+    <span class="fixtureBorderHeading">Womens team 2:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+  <div id="fixture9" class="panel">
+    <span class="fixtureBorderHeading">Womens team 3:</span> <br /> Next match against <span class="uniAgainst">University of Leeds</span> (9/12/2015, Home, 12:00)
+  </div>
+</div>
+</div>
+<div id="content_5">
+  <hr />
+  <h1 id="trainings" class="center">Training times</h1>
+  <hr />
+  <div class="tab-panels margin">
+    <div class="panel active">
+      <table class="trainingsTime">
+        <tbody>
+          <tr>
+            <th>Monday</th>
+            <td>2 courts 10-5pm (Students Only), 4 courts 5-8pm (Access players).</td>
+          </tr>
+          <tr>
+            <th>Tuesday</th>
+            <td>2 courts 10-1pm(Students Only), 4 courts 6-8pm (Students Only).</td>
+          </tr>
+          <tr>
+            <th>Wednesday</th>
+            <td>BUCS!</td>
+          </tr>
+          <tr>
+            <th>Thursday</th>
+            <td>2 courts 2-4pm, 4 courts 6-8pm (Access Players).</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>2 courts 10-1pm (Access Players), 2 courts 3-4pm (Students Only).</td>
+          </tr>
+          <tr>
+            <th>Sunday</th>
+            <td>4 courts 5-9pm (Access players).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<div id="content_4">
+  <h1 class="center">Developed by</h1>
+  <div id="ribakovs">
+    <div class="captain">
+          <img src="img/me.jpg" title="Nikita Ribakovs" alt="Nikita Ribakovs" class="ribakovsImage" />
+        </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footerContent">
+    Copyright &copy; 2015 Nikita Ribakovs (<a href="http://www.inn.leedsmet.ac.uk/~c3463816/wd/index.html">My porfolio</a>) <br />
+    Business Information Technology <br />
+    StudentID : c3463816 <br />
+    Group : 4B1
+  </div>
+</footer>
+
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/what-input.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/panel.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>
